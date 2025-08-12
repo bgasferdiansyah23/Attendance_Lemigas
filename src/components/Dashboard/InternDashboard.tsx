@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { getCurrentUser } from '../../lib/auth';
+import { AttendanceSummary } from './AttendanceSummary';
 import { 
   getTodayAttendance, 
   checkIn, 
@@ -253,6 +254,9 @@ export const InternDashboard: React.FC = () => {
           </CardContent>
         </Card>
       </div>
+
+      {/* Attendance Summary */}
+      <AttendanceSummary />
     </div>
   );
 };
