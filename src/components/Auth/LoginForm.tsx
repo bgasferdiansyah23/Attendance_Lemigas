@@ -56,7 +56,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
             <div className="text-white font-bold text-lg">LEMIGAS</div>
           </div>
           <CardTitle className="text-2xl text-gray-900">
-            Internship Attendance System
+            Pantau Magang
           </CardTitle>
           <p className="text-gray-600">Sign in to your account</p>
         </CardHeader>
