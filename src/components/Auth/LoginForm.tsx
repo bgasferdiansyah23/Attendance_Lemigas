@@ -54,7 +54,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
         <CardHeader className="text-center">
           <div className="mx-auto bg-blue-600 rounded-lg p-3 w-fit mb-4">
             <img 
-  src="/images/logo-lemigas.png" 
+  src="/download/logo-lemigas.png" 
   alt="LEMIGAS Logo" 
   className="h-8 w-auto"
 />
